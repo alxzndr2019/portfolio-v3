@@ -29,7 +29,7 @@ export function Contact() {
             transition={{ delay: 0.2 }}
           >
             <Button size="lg" className="group" asChild>
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:ohiozepmiunu@gmail.com">
                 <Mail className="mr-2 h-4 w-4" />
                 Say Hello
                 <ArrowUpRight className="ml-2 h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
@@ -47,7 +47,7 @@ export function Contact() {
           >
             <Button variant="outline" className="group text-black" asChild>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/alxzndr2019"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
@@ -59,7 +59,7 @@ export function Contact() {
             </Button>
             <Button variant="outline" className="group text-black" asChild>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/alex-omiunu-2b2968169"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"

@@ -24,6 +24,12 @@ const Projects = dynamic(() =>
 const Contact = dynamic(() =>
   import("@/components/sections/contact").then((mod) => mod.Contact)
 );
+const Education = dynamic(() =>
+  import("@/components/sections/education").then((mod) => mod.Education)
+);
+const Languages = dynamic(() =>
+  import("@/components/sections/languages").then((mod) => mod.Languages)
+);
 
 export default function Home() {
   return (
@@ -41,7 +47,13 @@ export default function Home() {
             <Experience />
           </Suspense>
           <Suspense fallback={<Loading />}>
+            <Education />
+          </Suspense>
+          <Suspense fallback={<Loading />}>
             <Projects />
+          </Suspense>
+          <Suspense fallback={<Loading />}>
+            <Languages />
           </Suspense>
           <Suspense fallback={<Loading />}>
             <Contact />

@@ -54,7 +54,7 @@ export function Hero() {
 
           <Button variant="ghost" size="icon" asChild>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/alxzndr2019"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
@@ -65,7 +65,7 @@ export function Hero() {
 
           <Button variant="ghost" size="icon" asChild>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/alex-omiunu-2b2968169"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"

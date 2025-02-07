@@ -1,10 +1,10 @@
-import { Project } from "./types";
+import { Language, Project } from "./types";
 
 export const projects: Project[] = [
   {
     title: "Lexlearn:AI Powered YouTube Learning Assistant",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, payment processing, and an intuitive admin dashboard.",
+      "A full-stack AI-powered that breaks down complex Educational content into understandable chunks and provides an elagant learning experience with practice tests.",
     technologies: [
       "Next.js 14",
       "TypeScript",
@@ -24,12 +24,13 @@ export const projects: Project[] = [
       "Advanced AI content generation using GPT-4",
       "Server-side rendering and static generation for optimal performance",
       "CI/CD pipeline with automated testing and deployment",
+      "Responsive design for optimal user experience",
     ],
   },
   {
     title: "Team stack: AI-Powered Team Assignment System",
     description:
-      "A platform leveraging AI to help content creators generate, optimize, and analyze their content performance.",
+      "A platform leveraging AI to help software engineering leaders generate tasks and assign them to team members. based on the team's size and the task's complexity. from just the business requirements.",
     technologies: [
       "React",
       "Node.js",
@@ -47,6 +48,15 @@ export const projects: Project[] = [
     highlights: [
       "Advanced AI content generation using GPT-4",
       "Optimized caching with Redis",
+      "Server-side rendering and static generation for optimal performance",
+      "CI/CD pipeline with automated testing and deployment",
+      "Responsive design for optimal user experience",
+      "Real-time task assignment and updates",
+      "User authentication and authorization",
+      "Task prioritization and categorization",
+      "Task history and progress tracking",
+      "Task completion notifications",
+      "Task feedback and evaluation",
     ],
   },
   // Add more projects...
@@ -169,3 +179,51 @@ export const navigationItems = [
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ] as const;
+
+export const education: Education[] = [
+  {
+    degree: "Master of Science in Applied Data Science",
+    school: "Anglia Ruskin University",
+    period: "2023 - 2024",
+    description: [
+      "Conducted research on large language models and their applications in educational technology",
+      "Developed predictive models using Python, TensorFlow, and scikit-learn for real-world datasets",
+      "Completed advanced coursework in machine learning, statistical analysis, and data visualization",
+      "Collaborated on a research paper exploring AI-driven personalized learning systems",
+    ],
+    achievements: [
+      "Distinction in Advanced Machine Learning module",
+      "Published paper in University's Research Symposium",
+    ],
+  },
+  {
+    degree: "Bachelor of Science in Management Information Systems",
+    school: "Covenant University",
+    period: "2016 - 2021",
+    description: [
+      "Developed full-stack applications integrating business processes and information systems",
+      "Led a team of 4 in creating an enterprise resource planning system for local businesses",
+      "Completed courses in database management, system analysis, and web development",
+      "Participated in IBM Student Partners program, organizing technical workshops",
+    ],
+    achievements: [
+      "Graduated with First Class Honours (4.89/5.0 GPA)",
+      "IBM Student Ambassador",
+    ],
+  },
+  // Add more education entries as needed
+];
+
+export const languages: Language[] = [
+  {
+    name: "English",
+    proficiency: "Fluent",
+    flag: "🇬🇧",
+  },
+  {
+    name: "Spanish",
+    proficiency: "Basic",
+    flag: "🇪🇸",
+  },
+  // Add more languages as needed
+];

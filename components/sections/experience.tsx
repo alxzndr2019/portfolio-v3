@@ -34,33 +34,35 @@ export function Experience() {
               <div className="space-y-4">
                 <div>
                   <div className="flex items-center gap-4">
-                    <h3 className="text-xl font-semibold">
-                      {experience.title}
-                    </h3>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-500/10 text-purple-300 border-purple-800/50"
-                    >
-                      {experience.period}
-                    </Badge>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <p className="text-muted-foreground">
-                      {experience.company}
-                    </p>
-                    {experience.companyUrl && (
-                      <a
-                        href={experience.companyUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-purple-400 transition-colors inline-flex items-center gap-1"
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+                      <h3 className="text-xl font-semibold">
+                        {experience.title}
+                      </h3>
+                      <Badge
+                        variant="outline"
+                        className="bg-purple-500/10 text-purple-300 border-purple-800/50 w-fit"
                       >
-                        <ArrowUpRight className="w-3 h-3" />
-                        <span className="sr-only">
-                          Visit {experience.company} website
-                        </span>
-                      </a>
-                    )}
+                        {experience.period}
+                      </Badge>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-muted-foreground">
+                        {experience.company}
+                      </p>
+                      {experience.companyUrl && (
+                        <a
+                          href={experience.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-purple-400 transition-colors inline-flex items-center gap-1"
+                        >
+                          <ArrowUpRight className="w-3 h-3" />
+                          <span className="sr-only">
+                            Visit {experience.company} website
+                          </span>
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
 
