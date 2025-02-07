@@ -1,4 +1,4 @@
-import { Language, Project } from "./types";
+import { Education, Language, Project } from "./types";
 
 export const projects: Project[] = [
   {
