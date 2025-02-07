@@ -71,7 +71,11 @@ export function About() {
 
         <div className="flex">
           <Button className="text-black" size="lg" variant="outline" asChild>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://cv.djinni.co/53/3a52595684ed7b75b1a239ed90321c/AlexOmiunuResume-v2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FileText className="mr-2 h-4 w-4" />
               View Resume
             </a>
